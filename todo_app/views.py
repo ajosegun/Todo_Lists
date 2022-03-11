@@ -43,7 +43,7 @@ class ItemCreate(CreateView):
     fields = [
         "todo_list",
         "title",
-        "descriptions",
+        "description",
         "due_date",
     ]
 
